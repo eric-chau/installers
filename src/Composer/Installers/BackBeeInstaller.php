@@ -7,6 +7,6 @@ namespace Composer\Installers;
 class BackBeeInstaller extends BaseInstaller
 {
     protected $locations = array(
-        'package' => '{%name}/'
+        'package' => '{$name}/'
     );
 }
