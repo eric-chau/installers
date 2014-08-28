@@ -15,6 +15,7 @@ class Installer extends LibraryInstaller
     private $supportedTypes = array(
         'agl'          => 'AglInstaller',
         'annotatecms'  => 'AnnotateCmsInstaller',
+	'backbee'      => 'BackBeeInstaller',
         'bitrix'       => 'BitrixInstaller',
         'cakephp'      => 'CakePHPInstaller',
         'chef'         => 'ChefInstaller',
